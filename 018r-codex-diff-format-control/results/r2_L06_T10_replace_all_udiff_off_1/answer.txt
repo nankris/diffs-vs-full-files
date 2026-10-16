@@ -1,0 +1,17 @@
+```diff
+--- broken.js
++++ broken.js
+@@ -181,9 +181,9 @@
+-const API = "http://legacy.example";
++const API = "http://api.example";
+ 
+ function url(path) {
+-  return "http://legacy.example" + path;
++  return "http://api.example" + path;
+ }
+ 
+ function health() {
+-  return "http://legacy.example" + "/health";
++  return "http://api.example" + "/health";
+ }
+```

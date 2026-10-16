@@ -1,0 +1,20 @@
+```diff
+--- broken.js
++++ broken.js
+@@ -331,6 +331,6 @@
+ // Parses durations like "1h30m", "45m", "2h", "90s", "1h2m3s" into seconds.
+ function parseDuration(str) {
+-  const re = /(\d+)([hm])/g;
++  const re = /(\d+)([hms])/g;
+   let total = 0;
+   let m;
+   while ((m = re.exec(str)) !== null) {
+@@ -337,6 +337,7 @@
+     const n = parseInt(m[1], 10);
+     if (m[2] === "h") total += n * 3600;
+     else if (m[2] === "m") total += n * 60;
++    else if (m[2] === "s") total += n;
+   }
+   return total;
+ }
+```

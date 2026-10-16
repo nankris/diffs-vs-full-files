@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a13e5d-6148-7e50-8e85-b598ad8a048c"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```json\n[\n  {\n    \"old\": \"  return \\\"user:\\\" + id; // bug: should be item:\",\n    \"new\": \"  return \\\"item:\\\" + id;\"\n  }\n]\n```"}}
+{"type":"turn.completed","usage":{"input_tokens":13347,"cached_input_tokens":11520,"cache_write_input_tokens":0,"output_tokens":47,"reasoning_output_tokens":0}}

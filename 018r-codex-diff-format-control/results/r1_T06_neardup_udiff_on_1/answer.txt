@@ -1,0 +1,13 @@
+```diff
+--- broken.js
++++ broken.js
+@@ -3,7 +3,7 @@
+ }
+ 
+ function formatItem(id) {
+-  return "user:" + id; // bug: should be item:
++  return "item:" + id;
+ }
+ 
+ function label(kind, id) {
+```

@@ -1,0 +1,3 @@
+```json
+[{"old":"  return v + 0; // bug introduced: should just return v","new":"  return v;"}]
+```

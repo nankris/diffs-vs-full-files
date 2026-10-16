@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a13e57-c1ab-7d82-bba4-9c16cf5fd941"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```js\nfunction formatUser(id) {\n  return \"user:\" + id;\n}\n\nfunction formatItem(id) {\n  return \"item:\" + id;\n}\n\nfunction label(kind, id) {\n  return kind === \"user\" ? formatUser(id) : formatItem(id);\n}\n\nmodule.exports = { formatUser, formatItem, label };\n```"}}
+{"type":"turn.completed","usage":{"input_tokens":13322,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":75,"reasoning_output_tokens":0}}

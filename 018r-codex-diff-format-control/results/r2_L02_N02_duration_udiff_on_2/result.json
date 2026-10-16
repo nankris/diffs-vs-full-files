@@ -1,0 +1,26 @@
+{
+  "id": "r2_L02_N02_duration_udiff_on_2",
+  "round": 2,
+  "task": "L02_N02_duration",
+  "size": "large",
+  "format": "udiff",
+  "workflow": "on",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 10.85226081399992,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok_recount",
+  "passed": true,
+  "input": 32565,
+  "cached": 28160,
+  "output": 281,
+  "turns": 1,
+  "total": 32846
+}

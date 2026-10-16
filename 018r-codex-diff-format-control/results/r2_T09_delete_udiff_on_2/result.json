@@ -1,0 +1,26 @@
+{
+  "id": "r2_T09_delete_udiff_on_2",
+  "round": 2,
+  "task": "T09_delete",
+  "size": "small",
+  "format": "udiff",
+  "workflow": "on",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 8.594660451999971,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 28201,
+  "cached": 24320,
+  "output": 142,
+  "turns": 1,
+  "total": 28343
+}

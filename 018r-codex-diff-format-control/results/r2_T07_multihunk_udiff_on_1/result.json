@@ -1,0 +1,26 @@
+{
+  "id": "r2_T07_multihunk_udiff_on_1",
+  "round": 2,
+  "task": "T07_multihunk",
+  "size": "small",
+  "format": "udiff",
+  "workflow": "on",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 10.348033869000119,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "apply_error",
+  "passed": false,
+  "input": 28415,
+  "cached": 24320,
+  "output": 222,
+  "turns": 1,
+  "total": 28637
+}

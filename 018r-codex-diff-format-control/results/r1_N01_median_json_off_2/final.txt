@@ -1,0 +1,8 @@
+```json
+[
+  {
+    "old": "  return s[mid];",
+    "new": "  return s.length % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2;"
+  }
+]
+```

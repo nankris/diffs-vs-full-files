@@ -1,0 +1,26 @@
+{
+  "id": "r2_T05_stale_full_on_2",
+  "round": 2,
+  "task": "T05_stale",
+  "size": "small",
+  "format": "full",
+  "workflow": "on",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 11.268422006000037,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 28379,
+  "cached": 26112,
+  "output": 133,
+  "turns": 1,
+  "total": 28512
+}

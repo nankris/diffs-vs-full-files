@@ -1,0 +1,10 @@
+```diff
+--- broken.js
++++ broken.js
+@@ -181,1 +181,1 @@
+-const TAX = 0.05; // should be 0.1
++const TAX = 0.1; // should be 0.1
+@@ -188,1 +188,1 @@
+-  return "tax=5%"; // should reflect 10%
++  return "tax=10%"; // should reflect 10%
+```

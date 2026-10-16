@@ -1,0 +1,7 @@
+```js
+function safeDiv(a, b) {
+  return b === 0 ? null : a / b;
+}
+
+module.exports = { safeDiv };
+```

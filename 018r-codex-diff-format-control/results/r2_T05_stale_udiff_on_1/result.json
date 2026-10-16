@@ -1,0 +1,26 @@
+{
+  "id": "r2_T05_stale_udiff_on_1",
+  "round": 2,
+  "task": "T05_stale",
+  "size": "small",
+  "format": "udiff",
+  "workflow": "on",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 8.848867847999827,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 28426,
+  "cached": 26112,
+  "output": 144,
+  "turns": 1,
+  "total": 28570
+}

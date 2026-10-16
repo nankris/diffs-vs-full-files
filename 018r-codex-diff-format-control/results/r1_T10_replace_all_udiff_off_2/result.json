@@ -1,0 +1,23 @@
+{
+  "id": "r1_T10_replace_all_udiff_off_2",
+  "round": 1,
+  "task": "T10_replace_all",
+  "size": "small",
+  "format": "udiff",
+  "workflow": "off",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 19.191690264000044,
+  "timeout": false,
+  "tool_calls": 0,
+  "tool_types": [],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 13315,
+  "cached": 0,
+  "output": 121,
+  "turns": 1,
+  "total": 13436
+}

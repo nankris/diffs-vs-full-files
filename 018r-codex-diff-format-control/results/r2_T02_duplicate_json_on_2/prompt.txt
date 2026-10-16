@@ -1,0 +1,37 @@
+Fix broken.js so node test.js passes. Never alter test.js or other fixture files. All relevant files are provided below.
+
+broken.js:
+```
+function processA(x) {
+  return x + 1; // identical buggy body
+}
+
+function processB(x) {
+  return x + 1; // identical buggy body
+}
+
+function run(kind, x) {
+  if (kind === "A") return processA(x);
+  return processB(x);
+}
+
+module.exports = { processA, processB, run };
+
+```
+
+test.js:
+```
+const assert = require("assert");
+const { processA, processB, run } = require("./broken");
+// Only processA must be fixed; processB stays intentionally broken (duplicate stress).
+assert.strictEqual(processA(3), 6);
+assert.strictEqual(run("A", 4), 8);
+// processB still wrong is OK for this task's functional check:
+assert.strictEqual(processB(3), 4); // still +1
+console.log("OK");
+
+```
+
+Requested representation: Only a JSON array of exact search/replace edits [{"old":"exact existing text","new":"replacement"}] in one ```json block. Each old string must occur exactly once.
+Use your shell tool to write exactly this representation to answer.txt in the current directory. Do not apply the edits or run tests. Then reply Done. Do not delegate.
+ROUND 2 SERIALIZATION CONTROL: Use exactly ONE shell command: cat > answer.txt <<'ANSWER_EOF' followed by the complete literal requested representation and the closing ANSWER_EOF line. You must emit every byte of the artifact literally in the command. Do not read any files, use Python/JavaScript/sed, perform replacements, copy files, or synthesize contents programmatically. Use only cat and the quoted heredoc. All source content is already pasted above.

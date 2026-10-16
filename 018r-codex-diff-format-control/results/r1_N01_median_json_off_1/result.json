@@ -1,0 +1,23 @@
+{
+  "id": "r1_N01_median_json_off_1",
+  "round": 1,
+  "task": "N01_median",
+  "size": "small",
+  "format": "json",
+  "workflow": "off",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 6.280503566000107,
+  "timeout": false,
+  "tool_calls": 0,
+  "tool_types": [],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 13726,
+  "cached": 11520,
+  "output": 57,
+  "turns": 1,
+  "total": 13783
+}

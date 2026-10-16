@@ -1,0 +1,15 @@
+```js
+function formatUser(id) {
+  return "user:" + id;
+}
+
+function formatItem(id) {
+  return "item:" + id;
+}
+
+function label(kind, id) {
+  return kind === "user" ? formatUser(id) : formatItem(id);
+}
+
+module.exports = { formatUser, formatItem, label };
+```

@@ -1,0 +1,3 @@
+```json
+[{"old":"function processA(x) {\n  return x + 1; // identical buggy body\n}","new":"function processA(x) {\n  return x * 2;\n}"}]
+```

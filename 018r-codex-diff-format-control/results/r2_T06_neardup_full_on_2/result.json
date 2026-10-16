@@ -1,0 +1,26 @@
+{
+  "id": "r2_T06_neardup_full_on_2",
+  "round": 2,
+  "task": "T06_neardup",
+  "size": "small",
+  "format": "full",
+  "workflow": "on",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 10.861617562999982,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 28334,
+  "cached": 25984,
+  "output": 158,
+  "turns": 1,
+  "total": 28492
+}

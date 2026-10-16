@@ -1,0 +1,23 @@
+{
+  "id": "r1_T07_multihunk_full_off_1",
+  "round": 1,
+  "task": "T07_multihunk",
+  "size": "small",
+  "format": "full",
+  "workflow": "off",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 5.772775057999979,
+  "timeout": false,
+  "tool_calls": 0,
+  "tool_types": [],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 13313,
+  "cached": 11520,
+  "output": 58,
+  "turns": 1,
+  "total": 13371
+}

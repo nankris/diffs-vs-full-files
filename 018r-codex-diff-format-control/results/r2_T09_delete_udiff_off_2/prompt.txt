@@ -1,0 +1,25 @@
+Fix broken.js so node test.js passes. Never alter test.js or other fixture files. All relevant files are provided below.
+
+broken.js:
+```
+function normalize(s) {
+  s = s.trim();
+  s = s.toUpperCase(); // bug: should not uppercase
+  return s;
+}
+
+module.exports = { normalize };
+
+```
+
+test.js:
+```
+const assert = require("assert");
+const { normalize } = require("./broken");
+assert.strictEqual(normalize("  Hello "), "Hello");
+console.log("OK");
+
+```
+
+Requested representation: Only a unified diff with --- broken.js and +++ broken.js headers and valid @@ hunk counts, in one ```diff block.
+Do not use any tools. Return exactly the requested representation as your final answer. Do not delegate.

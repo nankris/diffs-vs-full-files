@@ -1,0 +1,11 @@
+```diff
+--- broken.js
++++ broken.js
+@@ -1,5 +1,6 @@
+ function safeDiv(a, b) {
++  if (b === 0) return null;
+   return a / b;
+ }
+ 
+ module.exports = { safeDiv };
+```

@@ -1,0 +1,12 @@
+```json
+[
+  {
+    "old": "const TAX = 0.05; // should be 0.1",
+    "new": "const TAX = 0.1;"
+  },
+  {
+    "old": "return \"tax=5%\"; // should reflect 10%",
+    "new": "return \"tax=10%\";"
+  }
+]
+```

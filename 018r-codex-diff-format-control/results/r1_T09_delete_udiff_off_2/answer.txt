@@ -1,0 +1,12 @@
+```diff
+--- broken.js
++++ broken.js
+@@ -1,7 +1,6 @@
+ function normalize(s) {
+   s = s.trim();
+-  s = s.toUpperCase(); // bug: should not uppercase
+   return s;
+ }
+ 
+ module.exports = { normalize };
+```

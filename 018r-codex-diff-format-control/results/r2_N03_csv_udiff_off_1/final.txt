@@ -1,0 +1,32 @@
+```diff
+--- broken.js
++++ broken.js
+@@ -1,6 +1,26 @@
+ // Minimal CSV reader for the billing export.
+ function parseLine(line) {
+-  return line.split(",");
++  const cells = [];
++  let cell = "";
++  let quoted = false;
++  for (let i = 0; i < line.length; i++) {
++    const char = line[i];
++    if (char === '"') {
++      if (quoted && line[i + 1] === '"') {
++        cell += '"';
++        i++;
++      } else {
++        quoted = !quoted;
++      }
++    } else if (char === "," && !quoted) {
++      cells.push(cell);
++      cell = "";
++    } else {
++      cell += char;
++    }
++  }
++  cells.push(cell);
++  return cells;
+ }
+ 
+ function parseCsv(text) {
+```

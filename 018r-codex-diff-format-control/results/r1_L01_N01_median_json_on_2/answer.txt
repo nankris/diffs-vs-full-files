@@ -1,0 +1,8 @@
+```json
+[
+  {
+    "old": "  const mid = Math.floor(s.length / 2);\n  return s[mid];",
+    "new": "  const mid = Math.floor(s.length / 2);\n  return s.length % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2;"
+  }
+]
+```

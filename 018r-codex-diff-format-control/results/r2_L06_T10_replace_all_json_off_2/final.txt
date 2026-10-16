@@ -1,0 +1,16 @@
+```json
+[
+  {
+    "old": "const API = \"http://legacy.example\";",
+    "new": "const API = \"http://api.example\";"
+  },
+  {
+    "old": "return \"http://legacy.example\" + path;",
+    "new": "return API + path;"
+  },
+  {
+    "old": "return \"http://legacy.example\" + \"/health\";",
+    "new": "return API + \"/health\";"
+  }
+]
+```

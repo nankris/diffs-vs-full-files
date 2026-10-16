@@ -1,0 +1,26 @@
+{
+  "id": "r2_L01_N01_median_full_on_2",
+  "round": 2,
+  "task": "L01_N01_median",
+  "size": "large",
+  "format": "full",
+  "workflow": "on",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 37.911596071000076,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 34446,
+  "cached": 24320,
+  "output": 2207,
+  "turns": 1,
+  "total": 36653
+}

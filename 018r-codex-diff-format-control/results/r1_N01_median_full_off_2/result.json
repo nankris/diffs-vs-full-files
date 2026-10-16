@@ -1,0 +1,23 @@
+{
+  "id": "r1_N01_median_full_off_2",
+  "round": 1,
+  "task": "N01_median",
+  "size": "small",
+  "format": "full",
+  "workflow": "off",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 7.014150012000073,
+  "timeout": false,
+  "tool_calls": 0,
+  "tool_types": [],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 13701,
+  "cached": 11520,
+  "output": 132,
+  "turns": 1,
+  "total": 13833
+}

@@ -1,0 +1,23 @@
+{
+  "id": "r1_T08_insert_json_off_1",
+  "round": 1,
+  "task": "T08_insert",
+  "size": "small",
+  "format": "json",
+  "workflow": "off",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 4.925676383999871,
+  "timeout": false,
+  "tool_calls": 0,
+  "tool_types": [],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 13274,
+  "cached": 11520,
+  "output": 36,
+  "turns": 1,
+  "total": 13310
+}

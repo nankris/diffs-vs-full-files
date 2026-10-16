@@ -1,0 +1,3 @@
+```json
+[{"old":"const re = /(\\d+)([hm])/g;","new":"const re = /(\\d+)([hms])/g;"},{"old":"    else if (m[2] === \"m\") total += n * 60;","new":"    else if (m[2] === \"m\") total += n * 60;\n    else if (m[2] === \"s\") total += n;"}]
+```

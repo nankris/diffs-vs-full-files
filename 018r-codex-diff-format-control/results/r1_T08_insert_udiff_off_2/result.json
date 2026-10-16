@@ -1,0 +1,23 @@
+{
+  "id": "r1_T08_insert_udiff_off_2",
+  "round": 1,
+  "task": "T08_insert",
+  "size": "small",
+  "format": "udiff",
+  "workflow": "off",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 5.859080315000028,
+  "timeout": false,
+  "tool_calls": 0,
+  "tool_types": [],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 13267,
+  "cached": 11520,
+  "output": 62,
+  "turns": 1,
+  "total": 13329
+}

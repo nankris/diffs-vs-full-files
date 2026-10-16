@@ -1,0 +1,23 @@
+{
+  "id": "r1_T02_duplicate_full_off_1",
+  "round": 1,
+  "task": "T02_duplicate",
+  "size": "small",
+  "format": "full",
+  "workflow": "off",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 5.358999497000013,
+  "timeout": false,
+  "tool_calls": 0,
+  "tool_types": [],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 13349,
+  "cached": 11520,
+  "output": 80,
+  "turns": 1,
+  "total": 13429
+}

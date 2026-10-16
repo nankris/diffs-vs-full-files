@@ -1,0 +1,27 @@
+{
+  "id": "r2_N03_csv_udiff_on_1",
+  "round": 2,
+  "task": "N03_csv",
+  "size": "small",
+  "format": "udiff",
+  "workflow": "on",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 22.912217689000045,
+  "timeout": false,
+  "tool_calls": 2,
+  "tool_types": [
+    "command_execution",
+    "command_execution"
+  ],
+  "compliant": false,
+  "literal_valid": false,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 60992,
+  "cached": 44416,
+  "output": 746,
+  "turns": 1,
+  "total": 61738
+}

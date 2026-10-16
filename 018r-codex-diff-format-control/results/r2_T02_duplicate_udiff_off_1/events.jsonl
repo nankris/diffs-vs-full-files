@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a13e65-2f15-7032-b2f4-60254721c694"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```diff\n--- broken.js\n+++ broken.js\n@@ -1,6 +1,6 @@\n function processA(x) {\n-  return x + 1; // identical buggy body\n+  return x * 2;\n }\n \n function processB(x) {\n   return x + 1; // identical buggy body\n```"}}
+{"type":"turn.completed","usage":{"input_tokens":13367,"cached_input_tokens":11520,"cache_write_input_tokens":0,"output_tokens":74,"reasoning_output_tokens":0}}

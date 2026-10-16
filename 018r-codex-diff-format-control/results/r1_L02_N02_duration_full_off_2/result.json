@@ -1,0 +1,23 @@
+{
+  "id": "r1_L02_N02_duration_full_off_2",
+  "round": 1,
+  "task": "L02_N02_duration",
+  "size": "large",
+  "format": "full",
+  "workflow": "off",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 32.08238460899997,
+  "timeout": false,
+  "tool_calls": 0,
+  "tool_types": [],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 15358,
+  "cached": 11520,
+  "output": 1816,
+  "turns": 1,
+  "total": 17174
+}

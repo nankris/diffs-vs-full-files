@@ -1,0 +1,24 @@
+Fix broken.js so node test.js passes. Never alter test.js or other fixture files. All relevant files are provided below.
+
+broken.js:
+```
+function safeDiv(a, b) {
+  return a / b;
+}
+
+module.exports = { safeDiv };
+
+```
+
+test.js:
+```
+const assert = require("assert");
+const { safeDiv } = require("./broken");
+assert.strictEqual(safeDiv(10, 2), 5);
+assert.strictEqual(safeDiv(10, 0), null);
+console.log("OK");
+
+```
+
+Requested representation: The complete corrected broken.js in one ```js block.
+Use your shell tool to write exactly this representation to answer.txt in the current directory. Do not apply the edits or run tests. Then reply Done. Do not delegate.

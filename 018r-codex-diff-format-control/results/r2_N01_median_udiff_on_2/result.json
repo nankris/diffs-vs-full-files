@@ -1,0 +1,26 @@
+{
+  "id": "r2_N01_median_udiff_on_2",
+  "round": 2,
+  "task": "N01_median",
+  "size": "small",
+  "format": "udiff",
+  "workflow": "on",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 10.91015373099981,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 29144,
+  "cached": 26496,
+  "output": 177,
+  "turns": 1,
+  "total": 29321
+}

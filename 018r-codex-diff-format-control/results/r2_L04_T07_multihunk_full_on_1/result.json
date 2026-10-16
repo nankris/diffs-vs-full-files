@@ -1,0 +1,26 @@
+{
+  "id": "r2_L04_T07_multihunk_full_on_1",
+  "round": 2,
+  "task": "L04_T07_multihunk",
+  "size": "large",
+  "format": "full",
+  "workflow": "on",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 42.95260632500003,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 34334,
+  "cached": 27904,
+  "output": 2389,
+  "turns": 1,
+  "total": 36723
+}

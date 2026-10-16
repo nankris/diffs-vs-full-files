@@ -1,0 +1,378 @@
+Fix broken.js so node test.js passes. Never alter test.js or other fixture files. All relevant files are provided below.
+
+broken.js:
+```
+function referenceHelper000(x) {
+  return x + 0;
+}
+function referenceHelper001(x) {
+  return x + 1;
+}
+function referenceHelper002(x) {
+  return x + 2;
+}
+function referenceHelper003(x) {
+  return x + 3;
+}
+function referenceHelper004(x) {
+  return x + 4;
+}
+function referenceHelper005(x) {
+  return x + 5;
+}
+function referenceHelper006(x) {
+  return x + 6;
+}
+function referenceHelper007(x) {
+  return x + 7;
+}
+function referenceHelper008(x) {
+  return x + 8;
+}
+function referenceHelper009(x) {
+  return x + 9;
+}
+function referenceHelper010(x) {
+  return x + 10;
+}
+function referenceHelper011(x) {
+  return x + 11;
+}
+function referenceHelper012(x) {
+  return x + 12;
+}
+function referenceHelper013(x) {
+  return x + 13;
+}
+function referenceHelper014(x) {
+  return x + 14;
+}
+function referenceHelper015(x) {
+  return x + 15;
+}
+function referenceHelper016(x) {
+  return x + 16;
+}
+function referenceHelper017(x) {
+  return x + 17;
+}
+function referenceHelper018(x) {
+  return x + 18;
+}
+function referenceHelper019(x) {
+  return x + 19;
+}
+function referenceHelper020(x) {
+  return x + 20;
+}
+function referenceHelper021(x) {
+  return x + 21;
+}
+function referenceHelper022(x) {
+  return x + 22;
+}
+function referenceHelper023(x) {
+  return x + 23;
+}
+function referenceHelper024(x) {
+  return x + 24;
+}
+function referenceHelper025(x) {
+  return x + 25;
+}
+function referenceHelper026(x) {
+  return x + 26;
+}
+function referenceHelper027(x) {
+  return x + 27;
+}
+function referenceHelper028(x) {
+  return x + 28;
+}
+function referenceHelper029(x) {
+  return x + 29;
+}
+function referenceHelper030(x) {
+  return x + 30;
+}
+function referenceHelper031(x) {
+  return x + 31;
+}
+function referenceHelper032(x) {
+  return x + 32;
+}
+function referenceHelper033(x) {
+  return x + 33;
+}
+function referenceHelper034(x) {
+  return x + 34;
+}
+function referenceHelper035(x) {
+  return x + 35;
+}
+function referenceHelper036(x) {
+  return x + 36;
+}
+function referenceHelper037(x) {
+  return x + 37;
+}
+function referenceHelper038(x) {
+  return x + 38;
+}
+function referenceHelper039(x) {
+  return x + 39;
+}
+function referenceHelper040(x) {
+  return x + 40;
+}
+function referenceHelper041(x) {
+  return x + 41;
+}
+function referenceHelper042(x) {
+  return x + 42;
+}
+function referenceHelper043(x) {
+  return x + 43;
+}
+function referenceHelper044(x) {
+  return x + 44;
+}
+function referenceHelper045(x) {
+  return x + 45;
+}
+function referenceHelper046(x) {
+  return x + 46;
+}
+function referenceHelper047(x) {
+  return x + 47;
+}
+function referenceHelper048(x) {
+  return x + 48;
+}
+function referenceHelper049(x) {
+  return x + 49;
+}
+function referenceHelper050(x) {
+  return x + 50;
+}
+function referenceHelper051(x) {
+  return x + 51;
+}
+function referenceHelper052(x) {
+  return x + 52;
+}
+function referenceHelper053(x) {
+  return x + 53;
+}
+function referenceHelper054(x) {
+  return x + 54;
+}
+function referenceHelper055(x) {
+  return x + 55;
+}
+function referenceHelper056(x) {
+  return x + 56;
+}
+function referenceHelper057(x) {
+  return x + 57;
+}
+function referenceHelper058(x) {
+  return x + 58;
+}
+function referenceHelper059(x) {
+  return x + 59;
+}
+function referenceHelper060(x) {
+  return x + 60;
+}
+function referenceHelper061(x) {
+  return x + 61;
+}
+function referenceHelper062(x) {
+  return x + 62;
+}
+function referenceHelper063(x) {
+  return x + 63;
+}
+function referenceHelper064(x) {
+  return x + 64;
+}
+function referenceHelper065(x) {
+  return x + 65;
+}
+function referenceHelper066(x) {
+  return x + 66;
+}
+function referenceHelper067(x) {
+  return x + 67;
+}
+function referenceHelper068(x) {
+  return x + 68;
+}
+function referenceHelper069(x) {
+  return x + 69;
+}
+function referenceHelper070(x) {
+  return x + 70;
+}
+function referenceHelper071(x) {
+  return x + 71;
+}
+function referenceHelper072(x) {
+  return x + 72;
+}
+function referenceHelper073(x) {
+  return x + 73;
+}
+function referenceHelper074(x) {
+  return x + 74;
+}
+function referenceHelper075(x) {
+  return x + 75;
+}
+function referenceHelper076(x) {
+  return x + 76;
+}
+function referenceHelper077(x) {
+  return x + 77;
+}
+function referenceHelper078(x) {
+  return x + 78;
+}
+function referenceHelper079(x) {
+  return x + 79;
+}
+function referenceHelper080(x) {
+  return x + 80;
+}
+function referenceHelper081(x) {
+  return x + 81;
+}
+function referenceHelper082(x) {
+  return x + 82;
+}
+function referenceHelper083(x) {
+  return x + 83;
+}
+function referenceHelper084(x) {
+  return x + 84;
+}
+function referenceHelper085(x) {
+  return x + 85;
+}
+function referenceHelper086(x) {
+  return x + 86;
+}
+function referenceHelper087(x) {
+  return x + 87;
+}
+function referenceHelper088(x) {
+  return x + 88;
+}
+function referenceHelper089(x) {
+  return x + 89;
+}
+function referenceHelper090(x) {
+  return x + 90;
+}
+function referenceHelper091(x) {
+  return x + 91;
+}
+function referenceHelper092(x) {
+  return x + 92;
+}
+function referenceHelper093(x) {
+  return x + 93;
+}
+function referenceHelper094(x) {
+  return x + 94;
+}
+function referenceHelper095(x) {
+  return x + 95;
+}
+function referenceHelper096(x) {
+  return x + 96;
+}
+function referenceHelper097(x) {
+  return x + 97;
+}
+function referenceHelper098(x) {
+  return x + 98;
+}
+function referenceHelper099(x) {
+  return x + 99;
+}
+function referenceHelper100(x) {
+  return x + 100;
+}
+function referenceHelper101(x) {
+  return x + 101;
+}
+function referenceHelper102(x) {
+  return x + 102;
+}
+function referenceHelper103(x) {
+  return x + 103;
+}
+function referenceHelper104(x) {
+  return x + 104;
+}
+function referenceHelper105(x) {
+  return x + 105;
+}
+function referenceHelper106(x) {
+  return x + 106;
+}
+function referenceHelper107(x) {
+  return x + 107;
+}
+function referenceHelper108(x) {
+  return x + 108;
+}
+function referenceHelper109(x) {
+  return x + 109;
+}
+// Parses durations like "1h30m", "45m", "2h", "90s", "1h2m3s" into seconds.
+function parseDuration(str) {
+  const re = /(\d+)([hm])/g;
+  let total = 0;
+  let m;
+  while ((m = re.exec(str)) !== null) {
+    const n = parseInt(m[1], 10);
+    if (m[2] === "h") total += n * 3600;
+    else if (m[2] === "m") total += n * 60;
+  }
+  return total;
+}
+
+module.exports = { parseDuration };
+
+```
+
+test.js:
+```
+// Trace-heavy test: prints a config dump and one trace line per input.
+const { parseDuration } = require("./broken");
+console.log("config dump:");
+for (let i = 0; i < 60; i++) console.log(`  scheduler.queue[${i}] = { name: "q${i}", workers: ${(i * 7) % 13 + 1}, retry: "${(i % 5) + 1}m", ttl: "${(i % 3) + 1}h" }`);
+const cases = [];
+for (let i = 0; i < 300; i++) {
+  const h = i % 4, m = (i * 7) % 60;
+  if (i >= 145 && i < 160) { const s = (i * 13) % 60 + 1; cases.push([`${h}h${m}m${s}s`, h * 3600 + m * 60 + s]); }
+  else cases.push([`${h}h${m}m`, h * 3600 + m * 60]);
+}
+let bad = 0;
+cases.forEach(([inp, exp], i) => {
+  const got = parseDuration(inp);
+  console.log(`trace #${i} parse("${inp}") -> ${got}${got === exp ? "" : "   <-- MISMATCH expected " + exp}`);
+  if (got !== exp) bad++;
+});
+for (let i = 0; i < 60; i++) console.log(`  metrics.bucket[${i}] p50=${(i * 3) % 17}ms p99=${(i * 11) % 97}ms`);
+if (bad) { console.log(`${bad} mismatches`); process.exit(1); }
+console.log("OK");
+
+```
+
+Requested representation: Only a unified diff with --- broken.js and +++ broken.js headers and valid @@ hunk counts, in one ```diff block.
+Use your shell tool to write exactly this representation to answer.txt in the current directory. Do not apply the edits or run tests. Then reply Done. Do not delegate.
+ROUND 2 SERIALIZATION CONTROL: Use exactly ONE shell command: cat > answer.txt <<'ANSWER_EOF' followed by the complete literal requested representation and the closing ANSWER_EOF line. You must emit every byte of the artifact literally in the command. Do not read any files, use Python/JavaScript/sed, perform replacements, copy files, or synthesize contents programmatically. Use only cat and the quoted heredoc. All source content is already pasted above.

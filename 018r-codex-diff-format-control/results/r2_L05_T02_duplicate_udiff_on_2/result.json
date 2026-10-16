@@ -1,0 +1,26 @@
+{
+  "id": "r2_L05_T02_duplicate_udiff_on_2",
+  "round": 2,
+  "task": "L05_T02_duplicate",
+  "size": "large",
+  "format": "udiff",
+  "workflow": "on",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 8.637431137000021,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 32179,
+  "cached": 24320,
+  "output": 128,
+  "turns": 1,
+  "total": 32307
+}

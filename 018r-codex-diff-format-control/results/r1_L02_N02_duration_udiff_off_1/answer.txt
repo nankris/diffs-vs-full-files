@@ -1,0 +1,14 @@
+```diff
+--- broken.js
++++ broken.js
+@@ -333,7 +333,8 @@
+-  const re = /(\d+)([hm])/g;
++  const re = /(\d+)([hms])/g;
+   let total = 0;
+   let m;
+   while ((m = re.exec(str)) !== null) {
+     const n = parseInt(m[1], 10);
+     if (m[2] === "h") total += n * 3600;
+     else if (m[2] === "m") total += n * 60;
++    else if (m[2] === "s") total += n;
+```

@@ -1,0 +1,13 @@
+```js
+const TAX = 0.1;
+
+function priceWithTax(net) {
+  return net * (1 + TAX);
+}
+
+function label() {
+  return "tax=10%";
+}
+
+module.exports = { TAX, priceWithTax, label };
+```

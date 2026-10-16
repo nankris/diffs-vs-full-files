@@ -1,0 +1,27 @@
+```diff
+--- broken.js
++++ broken.js
+@@ -3,1 +3,21 @@
+-  return line.split(",");
++  const cells = [];
++  let cell = "";
++  let quoted = false;
++  for (let i = 0; i < line.length; i++) {
++    const char = line[i];
++    if (char === '"') {
++      if (quoted && line[i + 1] === '"') {
++        cell += '"';
++        i++;
++      } else {
++        quoted = !quoted;
++      }
++    } else if (char === "," && !quoted) {
++      cells.push(cell);
++      cell = "";
++    } else {
++      cell += char;
++    }
++  }
++  cells.push(cell);
++  return cells;
+```

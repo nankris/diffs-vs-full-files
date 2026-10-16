@@ -1,0 +1,23 @@
+{
+  "id": "r1_N02_duration_udiff_off_2",
+  "round": 1,
+  "task": "N02_duration",
+  "size": "small",
+  "format": "udiff",
+  "workflow": "off",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 12.634667476999994,
+  "timeout": false,
+  "tool_calls": 0,
+  "tool_types": [],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 13722,
+  "cached": 11520,
+  "output": 290,
+  "turns": 1,
+  "total": 14012
+}

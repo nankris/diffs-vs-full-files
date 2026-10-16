@@ -1,0 +1,12 @@
+```diff
+--- broken.js
++++ broken.js
+@@ -181,6 +181,6 @@
+ function processA(x) {
+-  return x + 1; // identical buggy body
++  return x * 2;
+ }
+ 
+ function processB(x) {
+   return x + 1; // identical buggy body
+```

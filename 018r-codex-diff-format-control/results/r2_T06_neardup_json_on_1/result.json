@@ -1,0 +1,26 @@
+{
+  "id": "r2_T06_neardup_json_on_1",
+  "round": 2,
+  "task": "T06_neardup",
+  "size": "small",
+  "format": "json",
+  "workflow": "on",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 7.95011850700007,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 28339,
+  "cached": 26112,
+  "output": 115,
+  "turns": 1,
+  "total": 28454
+}

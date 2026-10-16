@@ -1,0 +1,23 @@
+{
+  "id": "r1_T06_neardup_full_off_2",
+  "round": 1,
+  "task": "T06_neardup",
+  "size": "small",
+  "format": "full",
+  "workflow": "off",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 5.90831991999994,
+  "timeout": false,
+  "tool_calls": 0,
+  "tool_types": [],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 13322,
+  "cached": 0,
+  "output": 75,
+  "turns": 1,
+  "total": 13397
+}

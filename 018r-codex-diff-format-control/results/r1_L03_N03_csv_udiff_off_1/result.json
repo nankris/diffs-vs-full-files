@@ -1,0 +1,23 @@
+{
+  "id": "r1_L03_N03_csv_udiff_off_1",
+  "round": 1,
+  "task": "L03_N03_csv",
+  "size": "large",
+  "format": "udiff",
+  "workflow": "off",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 10.910913820999895,
+  "timeout": false,
+  "tool_calls": 0,
+  "tool_types": [],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 20841,
+  "cached": 11520,
+  "output": 322,
+  "turns": 1,
+  "total": 21163
+}

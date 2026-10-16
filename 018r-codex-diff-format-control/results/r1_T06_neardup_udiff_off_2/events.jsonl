@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a13e5b-cfec-7d42-a9cd-1042d5f5a219"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```diff\n--- broken.js\n+++ broken.js\n@@ -3,7 +3,7 @@\n }\n \n function formatItem(id) {\n-  return \"user:\" + id; // bug: should be item:\n+  return \"item:\" + id;\n }\n \n function label(kind, id) {\n```"}}
+{"type":"turn.completed","usage":{"input_tokens":13340,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":69,"reasoning_output_tokens":0}}

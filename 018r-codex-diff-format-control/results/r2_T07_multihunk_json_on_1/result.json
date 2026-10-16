@@ -1,0 +1,26 @@
+{
+  "id": "r2_T07_multihunk_json_on_1",
+  "round": 2,
+  "task": "T07_multihunk",
+  "size": "small",
+  "format": "json",
+  "workflow": "on",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 10.459558949999973,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 28362,
+  "cached": 26112,
+  "output": 153,
+  "turns": 1,
+  "total": 28515
+}

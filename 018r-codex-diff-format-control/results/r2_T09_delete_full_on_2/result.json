@@ -1,0 +1,26 @@
+{
+  "id": "r2_T09_delete_full_on_2",
+  "round": 2,
+  "task": "T09_delete",
+  "size": "small",
+  "format": "full",
+  "workflow": "on",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 8.609658961999685,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 28127,
+  "cached": 24320,
+  "output": 105,
+  "turns": 1,
+  "total": 28232
+}

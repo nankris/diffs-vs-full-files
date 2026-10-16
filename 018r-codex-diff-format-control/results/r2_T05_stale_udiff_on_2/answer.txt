@@ -1,0 +1,13 @@
+```diff
+--- broken.js
++++ broken.js
+@@ -3,7 +3,7 @@
+   if (v < lo) return lo;
+   if (v > hi) return hi;
+-  return v + 0; // bug introduced: should just return v
++  return v;
+ }
+ 
+ module.exports = { clamp };
+ 
+```

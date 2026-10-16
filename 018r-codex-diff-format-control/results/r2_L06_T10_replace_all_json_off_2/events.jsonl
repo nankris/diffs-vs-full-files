@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a13e64-b89c-7c01-bef4-925675938491"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```json\n[\n  {\n    \"old\": \"const API = \\\"http://legacy.example\\\";\",\n    \"new\": \"const API = \\\"http://api.example\\\";\"\n  },\n  {\n    \"old\": \"return \\\"http://legacy.example\\\" + path;\",\n    \"new\": \"return API + path;\"\n  },\n  {\n    \"old\": \"return \\\"http://legacy.example\\\" + \\\"/health\\\";\",\n    \"new\": \"return API + \\\"/health\\\";\"\n  }\n]\n```"}}
+{"type":"turn.completed","usage":{"input_tokens":15216,"cached_input_tokens":11520,"cache_write_input_tokens":0,"output_tokens":108,"reasoning_output_tokens":0}}

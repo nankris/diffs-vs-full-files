@@ -1,0 +1,25 @@
+{
+  "id": "r1_T08_insert_full_on_1",
+  "round": 1,
+  "task": "T08_insert",
+  "size": "small",
+  "format": "full",
+  "workflow": "on",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 9.649763970999857,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 27948,
+  "cached": 25856,
+  "output": 110,
+  "turns": 1,
+  "total": 28058
+}

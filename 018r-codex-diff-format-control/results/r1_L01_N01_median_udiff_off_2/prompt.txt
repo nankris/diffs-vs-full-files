@@ -1,0 +1,380 @@
+Fix broken.js so node test.js passes. Never alter test.js or other fixture files. All relevant files are provided below.
+
+broken.js:
+```
+function referenceHelper000(x) {
+  return x + 0;
+}
+function referenceHelper001(x) {
+  return x + 1;
+}
+function referenceHelper002(x) {
+  return x + 2;
+}
+function referenceHelper003(x) {
+  return x + 3;
+}
+function referenceHelper004(x) {
+  return x + 4;
+}
+function referenceHelper005(x) {
+  return x + 5;
+}
+function referenceHelper006(x) {
+  return x + 6;
+}
+function referenceHelper007(x) {
+  return x + 7;
+}
+function referenceHelper008(x) {
+  return x + 8;
+}
+function referenceHelper009(x) {
+  return x + 9;
+}
+function referenceHelper010(x) {
+  return x + 10;
+}
+function referenceHelper011(x) {
+  return x + 11;
+}
+function referenceHelper012(x) {
+  return x + 12;
+}
+function referenceHelper013(x) {
+  return x + 13;
+}
+function referenceHelper014(x) {
+  return x + 14;
+}
+function referenceHelper015(x) {
+  return x + 15;
+}
+function referenceHelper016(x) {
+  return x + 16;
+}
+function referenceHelper017(x) {
+  return x + 17;
+}
+function referenceHelper018(x) {
+  return x + 18;
+}
+function referenceHelper019(x) {
+  return x + 19;
+}
+function referenceHelper020(x) {
+  return x + 20;
+}
+function referenceHelper021(x) {
+  return x + 21;
+}
+function referenceHelper022(x) {
+  return x + 22;
+}
+function referenceHelper023(x) {
+  return x + 23;
+}
+function referenceHelper024(x) {
+  return x + 24;
+}
+function referenceHelper025(x) {
+  return x + 25;
+}
+function referenceHelper026(x) {
+  return x + 26;
+}
+function referenceHelper027(x) {
+  return x + 27;
+}
+function referenceHelper028(x) {
+  return x + 28;
+}
+function referenceHelper029(x) {
+  return x + 29;
+}
+function referenceHelper030(x) {
+  return x + 30;
+}
+function referenceHelper031(x) {
+  return x + 31;
+}
+function referenceHelper032(x) {
+  return x + 32;
+}
+function referenceHelper033(x) {
+  return x + 33;
+}
+function referenceHelper034(x) {
+  return x + 34;
+}
+function referenceHelper035(x) {
+  return x + 35;
+}
+function referenceHelper036(x) {
+  return x + 36;
+}
+function referenceHelper037(x) {
+  return x + 37;
+}
+function referenceHelper038(x) {
+  return x + 38;
+}
+function referenceHelper039(x) {
+  return x + 39;
+}
+function referenceHelper040(x) {
+  return x + 40;
+}
+function referenceHelper041(x) {
+  return x + 41;
+}
+function referenceHelper042(x) {
+  return x + 42;
+}
+function referenceHelper043(x) {
+  return x + 43;
+}
+function referenceHelper044(x) {
+  return x + 44;
+}
+function referenceHelper045(x) {
+  return x + 45;
+}
+function referenceHelper046(x) {
+  return x + 46;
+}
+function referenceHelper047(x) {
+  return x + 47;
+}
+function referenceHelper048(x) {
+  return x + 48;
+}
+function referenceHelper049(x) {
+  return x + 49;
+}
+function referenceHelper050(x) {
+  return x + 50;
+}
+function referenceHelper051(x) {
+  return x + 51;
+}
+function referenceHelper052(x) {
+  return x + 52;
+}
+function referenceHelper053(x) {
+  return x + 53;
+}
+function referenceHelper054(x) {
+  return x + 54;
+}
+function referenceHelper055(x) {
+  return x + 55;
+}
+function referenceHelper056(x) {
+  return x + 56;
+}
+function referenceHelper057(x) {
+  return x + 57;
+}
+function referenceHelper058(x) {
+  return x + 58;
+}
+function referenceHelper059(x) {
+  return x + 59;
+}
+function referenceHelper060(x) {
+  return x + 60;
+}
+function referenceHelper061(x) {
+  return x + 61;
+}
+function referenceHelper062(x) {
+  return x + 62;
+}
+function referenceHelper063(x) {
+  return x + 63;
+}
+function referenceHelper064(x) {
+  return x + 64;
+}
+function referenceHelper065(x) {
+  return x + 65;
+}
+function referenceHelper066(x) {
+  return x + 66;
+}
+function referenceHelper067(x) {
+  return x + 67;
+}
+function referenceHelper068(x) {
+  return x + 68;
+}
+function referenceHelper069(x) {
+  return x + 69;
+}
+function referenceHelper070(x) {
+  return x + 70;
+}
+function referenceHelper071(x) {
+  return x + 71;
+}
+function referenceHelper072(x) {
+  return x + 72;
+}
+function referenceHelper073(x) {
+  return x + 73;
+}
+function referenceHelper074(x) {
+  return x + 74;
+}
+function referenceHelper075(x) {
+  return x + 75;
+}
+function referenceHelper076(x) {
+  return x + 76;
+}
+function referenceHelper077(x) {
+  return x + 77;
+}
+function referenceHelper078(x) {
+  return x + 78;
+}
+function referenceHelper079(x) {
+  return x + 79;
+}
+function referenceHelper080(x) {
+  return x + 80;
+}
+function referenceHelper081(x) {
+  return x + 81;
+}
+function referenceHelper082(x) {
+  return x + 82;
+}
+function referenceHelper083(x) {
+  return x + 83;
+}
+function referenceHelper084(x) {
+  return x + 84;
+}
+function referenceHelper085(x) {
+  return x + 85;
+}
+function referenceHelper086(x) {
+  return x + 86;
+}
+function referenceHelper087(x) {
+  return x + 87;
+}
+function referenceHelper088(x) {
+  return x + 88;
+}
+function referenceHelper089(x) {
+  return x + 89;
+}
+function referenceHelper090(x) {
+  return x + 90;
+}
+function referenceHelper091(x) {
+  return x + 91;
+}
+function referenceHelper092(x) {
+  return x + 92;
+}
+function referenceHelper093(x) {
+  return x + 93;
+}
+function referenceHelper094(x) {
+  return x + 94;
+}
+function referenceHelper095(x) {
+  return x + 95;
+}
+function referenceHelper096(x) {
+  return x + 96;
+}
+function referenceHelper097(x) {
+  return x + 97;
+}
+function referenceHelper098(x) {
+  return x + 98;
+}
+function referenceHelper099(x) {
+  return x + 99;
+}
+function referenceHelper100(x) {
+  return x + 100;
+}
+function referenceHelper101(x) {
+  return x + 101;
+}
+function referenceHelper102(x) {
+  return x + 102;
+}
+function referenceHelper103(x) {
+  return x + 103;
+}
+function referenceHelper104(x) {
+  return x + 104;
+}
+function referenceHelper105(x) {
+  return x + 105;
+}
+function referenceHelper106(x) {
+  return x + 106;
+}
+function referenceHelper107(x) {
+  return x + 107;
+}
+function referenceHelper108(x) {
+  return x + 108;
+}
+function referenceHelper109(x) {
+  return x + 109;
+}
+// Small stats helpers used by the nightly report.
+function sortNums(arr) {
+  return arr.slice().sort((a, b) => a - b);
+}
+
+function mean(arr) {
+  return arr.reduce((s, x) => s + x, 0) / arr.length;
+}
+
+function median(arr) {
+  const s = sortNums(arr);
+  const mid = Math.floor(s.length / 2);
+  return s[mid];
+}
+
+module.exports = { sortNums, mean, median };
+
+```
+
+test.js:
+```
+// Verbose regression run: 400 generated cases. Prints one line per case.
+const { median } = require("./broken");
+let seed = 12345;
+function rnd() { seed = (seed * 1103515245 + 12345) % 2147483648; return seed / 2147483648; }
+function ref(a) { const s = a.slice().sort((x, y) => x - y); const m = Math.floor(s.length / 2); return s.length % 2 ? s[m] : (s[m - 1] + s[m]) / 2; }
+console.log("== stats regression suite v3.2 ==");
+for (let i = 0; i < 40; i++) console.log(`[setup] loading fixture shard ${i}/40 checksum=${(rnd() * 1e9) | 0}`);
+let failed = 0;
+for (let i = 0; i < 400; i++) {
+  // even-length arrays only appear in the middle of the run
+  const even = i >= 190 && i < 210;
+  const len = even ? 2 * (2 + (i % 4)) : 2 * (2 + (i % 4)) + 1;
+  const arr = Array.from({ length: len }, () => Math.round(rnd() * 100));
+  const got = median(arr), exp = ref(arr);
+  if (got === exp) console.log(`case ${i}: len=${len} median=${got} ok`);
+  else { failed++; console.log(`case ${i}: len=${len} median(${JSON.stringify(arr)}) expected ${exp} got ${got} FAIL`); }
+}
+for (let i = 0; i < 40; i++) console.log(`[teardown] flushing shard ${i}/40 ok`);
+if (failed) { console.log(`RESULT: ${failed} of 400 cases failed`); process.exit(1); }
+console.log("OK");
+
+```
+
+Requested representation: Only a unified diff with --- broken.js and +++ broken.js headers and valid @@ hunk counts, in one ```diff block.
+Do not use any tools. Return exactly the requested representation as your final answer. Do not delegate.

@@ -1,0 +1,26 @@
+{
+  "id": "r2_T02_duplicate_json_on_1",
+  "round": 2,
+  "task": "T02_duplicate",
+  "size": "small",
+  "format": "json",
+  "workflow": "on",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 8.413102079000055,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 28407,
+  "cached": 26112,
+  "output": 127,
+  "turns": 1,
+  "total": 28534
+}

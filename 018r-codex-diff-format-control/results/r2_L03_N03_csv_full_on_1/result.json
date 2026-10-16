@@ -1,0 +1,26 @@
+{
+  "id": "r2_L03_N03_csv_full_on_1",
+  "round": 2,
+  "task": "L03_N03_csv",
+  "size": "large",
+  "format": "full",
+  "workflow": "on",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 42.70750682500011,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 45532,
+  "cached": 33536,
+  "output": 2355,
+  "turns": 1,
+  "total": 47887
+}

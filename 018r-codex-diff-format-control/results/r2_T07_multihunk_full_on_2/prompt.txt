@@ -1,0 +1,32 @@
+Fix broken.js so node test.js passes. Never alter test.js or other fixture files. All relevant files are provided below.
+
+broken.js:
+```
+const TAX = 0.05; // should be 0.1
+
+function priceWithTax(net) {
+  return net * (1 + TAX);
+}
+
+function label() {
+  return "tax=5%"; // should reflect 10%
+}
+
+module.exports = { TAX, priceWithTax, label };
+
+```
+
+test.js:
+```
+const assert = require("assert");
+const { TAX, priceWithTax, label } = require("./broken");
+assert.strictEqual(TAX, 0.1);
+assert.ok(Math.abs(priceWithTax(100) - 110) < 1e-9);
+assert.strictEqual(label(), "tax=10%");
+console.log("OK");
+
+```
+
+Requested representation: The complete corrected broken.js in one ```js block.
+Use your shell tool to write exactly this representation to answer.txt in the current directory. Do not apply the edits or run tests. Then reply Done. Do not delegate.
+ROUND 2 SERIALIZATION CONTROL: Use exactly ONE shell command: cat > answer.txt <<'ANSWER_EOF' followed by the complete literal requested representation and the closing ANSWER_EOF line. You must emit every byte of the artifact literally in the command. Do not read any files, use Python/JavaScript/sed, perform replacements, copy files, or synthesize contents programmatically. Use only cat and the quoted heredoc. All source content is already pasted above.

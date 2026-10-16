@@ -1,0 +1,41 @@
+Fix broken.js so node test.js passes. Never alter test.js or other fixture files. All relevant files are provided below.
+
+broken.js:
+```
+function clamp(v, lo, hi) {
+  // recently added comment by another process
+  if (v < lo) return lo;
+  if (v > hi) return hi;
+  return v + 0; // bug introduced: should just return v
+}
+
+module.exports = { clamp };
+
+```
+
+snapshot.js:
+```
+function clamp(v, lo, hi) {
+  if (v < lo) return lo;
+  if (v > hi) return hi;
+  return v;
+}
+
+module.exports = { clamp };
+
+```
+
+test.js:
+```
+const assert = require("assert");
+const { clamp } = require("./broken");
+assert.strictEqual(clamp(5, 0, 10), 5);
+assert.strictEqual(clamp(-1, 0, 10), 0);
+assert.strictEqual(clamp(99, 0, 10), 10);
+console.log("OK");
+
+```
+
+Requested representation: Only a unified diff with --- broken.js and +++ broken.js headers and valid @@ hunk counts, in one ```diff block.
+Use your shell tool to write exactly this representation to answer.txt in the current directory. Do not apply the edits or run tests. Then reply Done. Do not delegate.
+ROUND 2 SERIALIZATION CONTROL: Use exactly ONE shell command: cat > answer.txt <<'ANSWER_EOF' followed by the complete literal requested representation and the closing ANSWER_EOF line. You must emit every byte of the artifact literally in the command. Do not read any files, use Python/JavaScript/sed, perform replacements, copy files, or synthesize contents programmatically. Use only cat and the quoted heredoc. All source content is already pasted above.

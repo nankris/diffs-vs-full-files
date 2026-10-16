@@ -1,0 +1,31 @@
+Fix broken.js so node test.js passes. Never alter test.js or other fixture files. All relevant files are provided below.
+
+broken.js:
+```
+const API = "http://legacy.example";
+
+function url(path) {
+  return "http://legacy.example" + path;
+}
+
+function health() {
+  return "http://legacy.example" + "/health";
+}
+
+module.exports = { API, url, health };
+
+```
+
+test.js:
+```
+const assert = require("assert");
+const { API, url, health } = require("./broken");
+assert.strictEqual(API, "http://api.example");
+assert.strictEqual(url("/v1"), "http://api.example/v1");
+assert.strictEqual(health(), "http://api.example/health");
+console.log("OK");
+
+```
+
+Requested representation: Only a JSON array of exact search/replace edits [{"old":"exact existing text","new":"replacement"}] in one ```json block. Each old string must occur exactly once.
+Do not use any tools. Return exactly the requested representation as your final answer. Do not delegate.

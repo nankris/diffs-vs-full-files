@@ -1,0 +1,8 @@
+```json
+[
+  {
+    "old": "  return \"user:\" + id; // bug: should be item:",
+    "new": "  return \"item:\" + id;"
+  }
+]
+```

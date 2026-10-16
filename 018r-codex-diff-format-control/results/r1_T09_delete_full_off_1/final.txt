@@ -1,0 +1,8 @@
+```js
+function normalize(s) {
+  s = s.trim();
+  return s;
+}
+
+module.exports = { normalize };
+```

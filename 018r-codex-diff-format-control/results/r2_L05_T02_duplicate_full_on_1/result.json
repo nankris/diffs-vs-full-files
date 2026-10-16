@@ -1,0 +1,26 @@
+{
+  "id": "r2_L05_T02_duplicate_full_on_1",
+  "round": 2,
+  "task": "L05_T02_duplicate",
+  "size": "large",
+  "format": "full",
+  "workflow": "on",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 45.9800449469999,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 34434,
+  "cached": 27904,
+  "output": 2417,
+  "turns": 1,
+  "total": 36851
+}

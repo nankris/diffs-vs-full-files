@@ -1,0 +1,23 @@
+{
+  "id": "r1_N03_csv_full_off_2",
+  "round": 1,
+  "task": "N03_csv",
+  "size": "small",
+  "format": "full",
+  "workflow": "off",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 7.758580347999896,
+  "timeout": false,
+  "tool_calls": 0,
+  "tool_types": [],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 19169,
+  "cached": 11520,
+  "output": 242,
+  "turns": 1,
+  "total": 19411
+}

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a13e56-a408-7050-a339-c0a1fcf2a787"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```diff\n--- broken.js\n+++ broken.js\n@@ -1,7 +1,6 @@\n function normalize(s) {\n   s = s.trim();\n-  s = s.toUpperCase(); // bug: should not uppercase\n   return s;\n }\n \n module.exports = { normalize };\n```"}}
+{"type":"turn.completed","usage":{"input_tokens":13264,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":66,"reasoning_output_tokens":0}}

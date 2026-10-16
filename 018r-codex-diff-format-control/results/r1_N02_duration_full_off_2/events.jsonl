@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a13e5b-92c8-7622-af7d-bf5f38a571f7"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```js\n// Parses durations like \"1h30m\", \"45m\", \"2h\", \"90s\", \"1h2m3s\" into seconds.\nfunction parseDuration(str) {\n  const re = /(\\d+)([hms])/g;\n  let total = 0;\n  let m;\n  while ((m = re.exec(str)) !== null) {\n    const n = parseInt(m[1], 10);\n    if (m[2] === \"h\") total += n * 3600;\n    else if (m[2] === \"m\") total += n * 60;\n    else if (m[2] === \"s\") total += n;\n  }\n  return total;\n}\n\nmodule.exports = { parseDuration };\n```"}}
+{"type":"turn.completed","usage":{"input_tokens":13704,"cached_input_tokens":0,"cache_write_input_tokens":0,"output_tokens":167,"reasoning_output_tokens":0}}

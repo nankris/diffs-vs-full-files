@@ -1,0 +1,13 @@
+```js
+const API = "http://api.example";
+
+function url(path) {
+  return "http://api.example" + path;
+}
+
+function health() {
+  return "http://api.example" + "/health";
+}
+
+module.exports = { API, url, health };
+```

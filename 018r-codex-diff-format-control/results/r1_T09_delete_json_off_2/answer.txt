@@ -1,0 +1,3 @@
+```json
+[{"old":"  s = s.toUpperCase(); // bug: should not uppercase\n","new":""}]
+```

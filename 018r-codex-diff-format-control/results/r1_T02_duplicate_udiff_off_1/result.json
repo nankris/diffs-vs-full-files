@@ -1,0 +1,23 @@
+{
+  "id": "r1_T02_duplicate_udiff_off_1",
+  "round": 1,
+  "task": "T02_duplicate",
+  "size": "small",
+  "format": "udiff",
+  "workflow": "off",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 6.1998504910000065,
+  "timeout": false,
+  "tool_calls": 0,
+  "tool_types": [],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 13367,
+  "cached": 11520,
+  "output": 55,
+  "turns": 1,
+  "total": 13422
+}

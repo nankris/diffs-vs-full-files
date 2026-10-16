@@ -1,0 +1,26 @@
+{
+  "id": "r2_L03_N03_csv_json_on_1",
+  "round": 2,
+  "task": "L03_N03_csv",
+  "size": "large",
+  "format": "json",
+  "workflow": "on",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 12.046423788999618,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 43529,
+  "cached": 33536,
+  "output": 302,
+  "turns": 1,
+  "total": 43831
+}

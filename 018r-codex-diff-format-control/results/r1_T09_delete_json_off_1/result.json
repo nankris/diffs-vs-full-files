@@ -1,0 +1,23 @@
+{
+  "id": "r1_T09_delete_json_off_1",
+  "round": 1,
+  "task": "T09_delete",
+  "size": "small",
+  "format": "json",
+  "workflow": "off",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 3.973268733000168,
+  "timeout": false,
+  "tool_calls": 0,
+  "tool_types": [],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 13271,
+  "cached": 11520,
+  "output": 32,
+  "turns": 1,
+  "total": 13303
+}

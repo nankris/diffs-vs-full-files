@@ -1,0 +1,25 @@
+Fix broken.js so node test.js passes. Never alter test.js or other fixture files. All relevant files are provided below.
+
+broken.js:
+```
+function normalize(s) {
+  s = s.trim();
+  s = s.toUpperCase(); // bug: should not uppercase
+  return s;
+}
+
+module.exports = { normalize };
+
+```
+
+test.js:
+```
+const assert = require("assert");
+const { normalize } = require("./broken");
+assert.strictEqual(normalize("  Hello "), "Hello");
+console.log("OK");
+
+```
+
+Requested representation: Only a JSON array of exact search/replace edits [{"old":"exact existing text","new":"replacement"}] in one ```json block. Each old string must occur exactly once.
+Do not use any tools. Return exactly the requested representation as your final answer. Do not delegate.

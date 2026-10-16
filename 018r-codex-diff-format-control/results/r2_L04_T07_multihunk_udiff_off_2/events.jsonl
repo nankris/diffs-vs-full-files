@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a13e63-1a4f-71d2-80cf-fc950ca50d92"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```diff\n--- broken.js\n+++ broken.js\n@@ -181 +181 @@\n-const TAX = 0.05; // should be 0.1\n+const TAX = 0.1;\n@@ -188 +188 @@\n-  return \"tax=5%\"; // should reflect 10%\n+  return \"tax=10%\";\n```"}}
+{"type":"turn.completed","usage":{"input_tokens":15225,"cached_input_tokens":11520,"cache_write_input_tokens":0,"output_tokens":159,"reasoning_output_tokens":77}}

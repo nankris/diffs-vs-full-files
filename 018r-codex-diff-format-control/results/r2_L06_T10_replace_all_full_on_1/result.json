@@ -1,0 +1,26 @@
+{
+  "id": "r2_L06_T10_replace_all_full_on_1",
+  "round": 2,
+  "task": "L06_T10_replace_all",
+  "size": "large",
+  "format": "full",
+  "workflow": "on",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 45.555179967000186,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 34315,
+  "cached": 24320,
+  "output": 2403,
+  "turns": 1,
+  "total": 36718
+}

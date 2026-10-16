@@ -1,0 +1,8 @@
+```json
+[
+  {
+    "old": "function parseLine(line) {\n  return line.split(\",\");\n}",
+    "new": "function parseLine(line) {\n  const cells = [];\n  let cell = \"\";\n  let quoted = false;\n  for (let i = 0; i < line.length; i++) {\n    const ch = line[i];\n    if (ch === '\"') {\n      if (quoted && line[i + 1] === '\"') {\n        cell += '\"';\n        i++;\n      } else {\n        quoted = !quoted;\n      }\n    } else if (ch === \",\" && !quoted) {\n      cells.push(cell);\n      cell = \"\";\n    } else {\n      cell += ch;\n    }\n  }\n  cells.push(cell);\n  return cells;\n}"
+  }
+]
+```

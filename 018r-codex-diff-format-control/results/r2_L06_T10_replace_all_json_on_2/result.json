@@ -1,0 +1,26 @@
+{
+  "id": "r2_L06_T10_replace_all_json_on_2",
+  "round": 2,
+  "task": "L06_T10_replace_all",
+  "size": "large",
+  "format": "json",
+  "workflow": "on",
+  "rep": 2,
+  "rc": 0,
+  "seconds": 9.301560688000336,
+  "timeout": false,
+  "tool_calls": 1,
+  "tool_types": [
+    "command_execution"
+  ],
+  "compliant": true,
+  "literal_valid": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 32159,
+  "cached": 27904,
+  "output": 197,
+  "turns": 1,
+  "total": 32356
+}

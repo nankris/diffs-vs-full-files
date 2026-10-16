@@ -1,0 +1,13 @@
+```diff
+--- broken.js
++++ broken.js
+@@ -342,7 +342,7 @@
+ function median(arr) {
+   const s = sortNums(arr);
+   const mid = Math.floor(s.length / 2);
+-  return s[mid];
++  return s.length % 2 ? s[mid] : (s[mid - 1] + s[mid]) / 2;
+ }
+ 
+ module.exports = { sortNums, mean, median };
+```

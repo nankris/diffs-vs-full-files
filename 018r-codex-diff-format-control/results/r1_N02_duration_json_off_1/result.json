@@ -1,0 +1,23 @@
+{
+  "id": "r1_N02_duration_json_off_1",
+  "round": 1,
+  "task": "N02_duration",
+  "size": "small",
+  "format": "json",
+  "workflow": "off",
+  "rep": 1,
+  "rc": 0,
+  "seconds": 5.964004578000186,
+  "timeout": false,
+  "tool_calls": 0,
+  "tool_types": [],
+  "compliant": true,
+  "mutated": false,
+  "status": "ok",
+  "passed": true,
+  "input": 13729,
+  "cached": 11520,
+  "output": 118,
+  "turns": 1,
+  "total": 13847
+}
