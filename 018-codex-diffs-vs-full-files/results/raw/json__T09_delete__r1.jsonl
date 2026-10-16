@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a13c0d-8546-7910-b8c5-51be92a1ee3d"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```json\n[{\"old\":\"  s = s.toUpperCase(); // bug: should not uppercase\\n\",\"new\":\"\"}]\n```"}}
+{"type":"turn.completed","usage":{"input_tokens":14331,"cached_input_tokens":12288,"cache_write_input_tokens":0,"output_tokens":32,"reasoning_output_tokens":0}}

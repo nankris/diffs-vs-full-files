@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a13c0c-f8cf-77b3-9c39-2e0e12ff0d6e"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"I’ll update the tax rate and label in `broken.js` without running commands or editing `test.js`.\n"}}
+{"type":"item.started","item":{"id":"item_1","type":"file_change","changes":[{"path":"/tmp/tig_42bm4us4/broken.js","kind":"update"}],"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_1","type":"file_change","changes":[{"path":"/tmp/tig_42bm4us4/broken.js","kind":"update"}],"status":"completed"}}
+{"type":"item.completed","item":{"id":"item_2","type":"agent_message","text":"Updated `broken.js`: `TAX` is now `0.1`, and `label()` returns `\"tax=10%\"`. No commands were run; `test.js` was untouched."}}
+{"type":"turn.completed","usage":{"input_tokens":28857,"cached_input_tokens":24576,"cache_write_input_tokens":0,"output_tokens":174,"reasoning_output_tokens":0}}

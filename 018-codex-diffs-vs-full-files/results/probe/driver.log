@@ -1,0 +1,3 @@
+start 1792008705 jobs=1 P=1
+{"cond": "udiff", "task": "N01_median", "rep": 1, "passed": 1, "subtests_passed": "", "total_tokens": 14859, "cached_input_tokens": 12288, "est_cost_usd": 0.00716, "model_calls": 1, "compactions": 0, "wall_s": 6.9, "limit_error": "", "retries": 0, "rl_primary_used_pct": 59.0}
+done 1792008712

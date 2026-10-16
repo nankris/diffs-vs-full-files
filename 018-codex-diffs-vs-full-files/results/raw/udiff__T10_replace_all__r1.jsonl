@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a13c0d-a1f1-7cc3-a39b-808f4802db1b"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```diff\n--- broken.js\n+++ broken.js\n@@ -1,11 +1,11 @@\n-const API = \"http://legacy.example\";\n+const API = \"http://api.example\";\n \n function url(path) {\n-  return \"http://legacy.example\" + path;\n+  return API + path;\n }\n \n function health() {\n-  return \"http://legacy.example\" + \"/health\";\n+  return API + \"/health\";\n }\n \n module.exports = { API, url, health };\n```"}}
+{"type":"turn.completed","usage":{"input_tokens":14360,"cached_input_tokens":12288,"cache_write_input_tokens":0,"output_tokens":111,"reasoning_output_tokens":0}}

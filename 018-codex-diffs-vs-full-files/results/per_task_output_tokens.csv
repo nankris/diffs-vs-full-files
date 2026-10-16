@@ -1,0 +1,11 @@
+task,tool,full,udiff,json
+N01_median,146,132,99,49
+N02_duration,173,167,196,118
+N03_csv,309,298,204,211
+T02_duplicate,142,80,62,53
+T05_stale,124,57,71,36
+T06_neardup,137,75,69,38
+T07_multihunk,174,58,114,71
+T08_insert,133,37,65,36
+T09_delete,116,30,60,32
+T10_replace_all,183,51,111,108

@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a13c0c-c01d-7762-ad89-080a0ccf17c0"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```diff\n--- broken.js\n+++ broken.js\n@@ -3,5 +3,5 @@\n   if (v < lo) return lo;\n   if (v > hi) return hi;\n-  return v + 0; // bug introduced: should just return v\n+  return v;\n }\n \n```"}}
+{"type":"turn.completed","usage":{"input_tokens":14421,"cached_input_tokens":12288,"cache_write_input_tokens":0,"output_tokens":71,"reasoning_output_tokens":0}}

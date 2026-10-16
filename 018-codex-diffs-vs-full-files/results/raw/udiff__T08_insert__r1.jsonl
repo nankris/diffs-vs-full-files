@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a13c0d-44db-7e93-ad2d-76ef90f16b6e"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```diff\n--- broken.js\n+++ broken.js\n@@ -1,5 +1,5 @@\n function safeDiv(a, b) {\n-  return a / b;\n+  return b === 0 ? null : a / b;\n }\n \n module.exports = { safeDiv };\n```"}}
+{"type":"turn.completed","usage":{"input_tokens":14312,"cached_input_tokens":12288,"cache_write_input_tokens":0,"output_tokens":65,"reasoning_output_tokens":0}}

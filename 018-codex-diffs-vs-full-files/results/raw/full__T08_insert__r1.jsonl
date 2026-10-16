@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a13c0d-3170-7b01-bb1a-65b6dd4c58d4"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```js\nfunction safeDiv(a, b) {\n  return b === 0 ? null : a / b;\n}\n\nmodule.exports = { safeDiv };\n```"}}
+{"type":"turn.completed","usage":{"input_tokens":14347,"cached_input_tokens":12288,"cache_write_input_tokens":0,"output_tokens":37,"reasoning_output_tokens":0}}

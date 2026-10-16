@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a13c0c-8949-7d73-a4d3-87d3b0e0841b"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"I’ll change only `processA` to double its input and leave `processB` unchanged."}}
+{"type":"item.started","item":{"id":"item_1","type":"file_change","changes":[{"path":"/tmp/tig_o4y70ts2/broken.js","kind":"update"}],"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_1","type":"file_change","changes":[{"path":"/tmp/tig_o4y70ts2/broken.js","kind":"update"}],"status":"completed"}}
+{"type":"item.completed","item":{"id":"item_2","type":"agent_message","text":"Updated `broken.js` so `processA` returns `x * 2`. Left `processB` and `test.js` unchanged. No tests or commands were run."}}
+{"type":"turn.completed","usage":{"input_tokens":28908,"cached_input_tokens":24576,"cache_write_input_tokens":0,"output_tokens":142,"reasoning_output_tokens":0}}

@@ -1,0 +1,5 @@
+fmt,runs,passed,parse_errors,apply_errors,needed_recount,out_mean,out_sum,total_mean,calls_mean,tool_calls_mean,est_cost_mean,wall_mean
+tool,10,10,0,0,0,164,1637,30352,2.0,1.0,0.0131,12.1
+full,10,10,0,0,0,98,985,15121,1.0,0.0,0.0077,6.8
+udiff,10,10,0,0,1,105,1051,15462,1.0,0.0,0.0084,7.0
+json,10,10,0,0,0,75,752,15128,1.0,0.0,0.0075,6.5

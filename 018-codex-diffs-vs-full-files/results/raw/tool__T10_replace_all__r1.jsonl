@@ -1,0 +1,7 @@
+{"type":"thread.started","thread_id":"01a13c0d-8b92-7132-93f4-63a672c4adf3"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"I’ll update the three URLs in broken.js without running any commands or changing test.js."}}
+{"type":"item.started","item":{"id":"item_1","type":"file_change","changes":[{"path":"/tmp/tig_nzrukv64/broken.js","kind":"update"}],"status":"in_progress"}}
+{"type":"item.completed","item":{"id":"item_1","type":"file_change","changes":[{"path":"/tmp/tig_nzrukv64/broken.js","kind":"update"}],"status":"completed"}}
+{"type":"item.completed","item":{"id":"item_2","type":"agent_message","text":"Updated all three URLs in broken.js to `http://api.example`. Left test.js unchanged and ran no commands."}}
+{"type":"turn.completed","usage":{"input_tokens":28850,"cached_input_tokens":24576,"cache_write_input_tokens":0,"output_tokens":183,"reasoning_output_tokens":0}}

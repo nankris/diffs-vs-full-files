@@ -1,0 +1,4 @@
+{"type":"thread.started","thread_id":"01a13c0c-ff96-7200-a103-6be3b69394bf"}
+{"type":"turn.started"}
+{"type":"item.completed","item":{"id":"item_0","type":"agent_message","text":"```js\nconst TAX = 0.1;\n\nfunction priceWithTax(net) {\n  return net * (1 + TAX);\n}\n\nfunction label() {\n  return \"tax=10%\";\n}\n\nmodule.exports = { TAX, priceWithTax, label };\n```"}}
+{"type":"turn.completed","usage":{"input_tokens":14355,"cached_input_tokens":12288,"cache_write_input_tokens":0,"output_tokens":58,"reasoning_output_tokens":0}}
