@@ -1,0 +1,45 @@
+start 1792007534 jobs=40 P=3
+udiff__N01_median__r1: pass=False sub=None tok=3785 cc=2984 cr=649 out=150 cost=$0.0270098 turns=1 tools={} wall=5s 5h=0.43 7d=0.69 
+full__N01_median__r1: pass=True sub=None tok=3802 cc=2958 cr=649 out=193 cost=$0.0276618 turns=1 tools={} wall=5s 5h=0.42 7d=0.69 
+json__N01_median__r1: pass=True sub=None tok=3719 cc=3003 cr=649 out=65 cost=$0.0254618 turns=1 tools={} wall=4s 5h=0.43 7d=0.69 
+tool__N01_median__r1: pass=False sub=None tok=37960 cc=4780 cr=32740 out=434 cost=$0.053492 turns=3 tools={'Read': 1, 'Edit': 1} wall=10s 5h=0.43 7d=0.69 
+full__N02_duration__r1: pass=False sub=None tok=3772 cc=2917 cr=649 out=204 cost=$0.0275538 turns=1 tools={} wall=4s 5h=0.43 7d=0.69 
+udiff__N02_duration__r1: pass=False sub=None tok=3845 cc=2947 cr=649 out=247 cost=$0.0286538 turns=1 tools={} wall=4s 5h=0.44 7d=0.69 
+tool__N02_duration__r1: pass=True sub=None tok=38237 cc=4940 cr=32666 out=625 cost=$0.0585772 turns=3 tools={'Read': 1, 'Edit': 1} wall=11s 5h=0.44 7d=0.69 
+json__N02_duration__r1: pass=True sub=None tok=3747 cc=2962 cr=649 out=134 cost=$0.026513799999999997 turns=1 tools={} wall=3s 5h=0.44 7d=0.69 
+full__N03_csv__r1: pass=True sub=None tok=11702 cc=10607 cr=649 out=444 cost=$0.09387380000000001 turns=1 tools={} wall=5s 5h=0.44 7d=0.69 
+tool__N03_csv__r1: pass=True sub=None tok=61617 cc=12726 cr=48092 out=793 cost=$0.1273104 turns=3 tools={'Read': 1, 'Edit': 1} wall=11s 5h=0.45 7d=0.69 
+udiff__N03_csv__r1: pass=False sub=None tok=12100 cc=10633 cr=649 out=816 cost=$0.1015218 turns=1 tools={} wall=9s 5h=0.45 7d=0.69 
+json__N03_csv__r1: pass=True sub=None tok=11698 cc=10652 cr=649 out=395 cost=$0.0932538 turns=1 tools={} wall=5s 5h=0.45 7d=0.69 
+full__T02_duplicate__r1: pass=True sub=None tok=3229 cc=2455 cr=649 out=123 cost=$0.022237800000000002 turns=1 tools={} wall=4s 5h=0.46 7d=0.69 
+udiff__T02_duplicate__r1: pass=False sub=None tok=3248 cc=2481 cr=649 out=116 cost=$0.0223058 turns=1 tools={} wall=4s 5h=0.46 7d=0.69 
+tool__T02_duplicate__r1: pass=True sub=None tok=36445 cc=4260 cr=31724 out=455 cost=$0.049548800000000004 turns=3 tools={'Read': 1, 'Edit': 1} wall=9s 5h=0.46 7d=0.69 
+json__T02_duplicate__r1: pass=True sub=None tok=3288 cc=2502 cr=649 out=135 cost=$0.0228538 turns=1 tools={} wall=4s 5h=0.47 7d=0.69 
+full__T05_stale__r1: pass=True sub=None tok=3271 cc=2472 cr=649 out=148 cost=$0.0228738 turns=1 tools={} wall=5s 5h=0.47 7d=0.69 
+udiff__T05_stale__r1: pass=False sub=None tok=3365 cc=2498 cr=649 out=216 cost=$0.0244418 turns=1 tools={} wall=5s 5h=0.47 7d=0.69 
+tool__T05_stale__r1: pass=True sub=None tok=36702 cc=4287 cr=31785 out=624 cost=$0.053156999999999996 turns=3 tools={'Read': 1, 'Edit': 1} wall=11s 5h=0.47 7d=0.7 
+json__T05_stale__r1: pass=True sub=None tok=3340 cc=2517 cr=649 out=172 cost=$0.0237138 turns=1 tools={} wall=4s 5h=0.47 7d=0.7 
+full__T06_neardup__r1: pass=True sub=None tok=3180 cc=2422 cr=649 out=107 cost=$0.0216538 turns=1 tools={} wall=3s 5h=0.47 7d=0.7 
+tool__T06_neardup__r1: pass=True sub=None tok=36190 cc=4186 cr=31630 out=368 cost=$0.047198000000000004 turns=3 tools={'Read': 1, 'Edit': 1} wall=7s 5h=0.47 7d=0.7 
+udiff__T06_neardup__r1: pass=False sub=None tok=3185 cc=2452 cr=649 out=82 cost=$0.0213938 turns=1 tools={} wall=4s 5h=0.48 7d=0.7 
+json__T06_neardup__r1: pass=True sub=None tok=3202 cc=2471 cr=649 out=80 cost=$0.021505800000000002 turns=1 tools={} wall=4s 5h=0.48 7d=0.7 
+full__T07_multihunk__r1: pass=True sub=None tok=3145 cc=2413 cr=649 out=81 cost=$0.021061800000000002 turns=1 tools={} wall=4s 5h=0.48 7d=0.7 
+udiff__T07_multihunk__r1: pass=False sub=None tok=3259 cc=2443 cr=649 out=165 cost=$0.0229818 turns=1 tools={} wall=4s 5h=0.48 7d=0.7 
+tool__T07_multihunk__r1: pass=True sub=None tok=36178 cc=4174 cr=31569 out=429 cost=$0.0483098 turns=3 tools={'Read': 1, 'Write': 1} wall=8s 5h=0.48 7d=0.7 
+json__T07_multihunk__r1: pass=True sub=None tok=3291 cc=2462 cr=649 out=178 cost=$0.023393800000000003 turns=1 tools={} wall=5s 5h=0.48 7d=0.7 
+full__T08_insert__r1: pass=True sub=None tok=3037 cc=2327 cr=649 out=59 cost=$0.0199338 turns=1 tools={} wall=3s 5h=0.48 7d=0.7 
+tool__T08_insert__r1: pass=True sub=None tok=35670 cc=3985 cr=31332 out=347 cost=$0.045110399999999995 turns=3 tools={'Read': 1, 'Edit': 1} wall=6s 5h=0.49 7d=0.7 
+udiff__T08_insert__r1: pass=False sub=None tok=3079 cc=2353 cr=649 out=75 cost=$0.0204618 turns=1 tools={} wall=3s 5h=0.48 7d=0.7 
+json__T08_insert__r1: pass=True sub=None tok=3067 cc=2370 cr=649 out=46 cost=$0.020017800000000002 turns=1 tools={} wall=3s 5h=0.49 7d=0.7 
+udiff__T09_delete__r1: pass=False sub=None tok=3095 cc=2352 cr=649 out=92 cost=$0.0207938 turns=1 tools={} wall=4s 5h=0.49 7d=0.7 
+full__T09_delete__r1: pass=True sub=None tok=3017 cc=2324 cr=649 out=42 cost=$0.019569800000000002 turns=1 tools={} wall=5s 5h=0.49 7d=0.7 
+tool__T09_delete__r1: pass=True sub=None tok=35777 cc=4036 cr=31366 out=369 cost=$0.045965200000000005 turns=3 tools={'Read': 1, 'Edit': 1} wall=8s 5h=0.49 7d=0.7 
+json__T09_delete__r1: pass=True sub=None tok=3070 cc=2373 cr=649 out=46 cost=$0.020041800000000002 turns=1 tools={} wall=4s 5h=0.5 7d=0.7 
+full__T10_replace_all__r1: pass=True sub=None tok=3095 cc=2383 cr=649 out=61 cost=$0.0204218 turns=1 tools={} wall=4s 5h=0.5 7d=0.7 
+udiff__T10_replace_all__r1: pass=False sub=None tok=3219 cc=2413 cr=649 out=155 cost=$0.0225418 turns=1 tools={} wall=4s 5h=0.5 7d=0.7 
+tool__T10_replace_all__r1: pass=True sub=None tok=35965 cc=4085 cr=31486 out=388 cost=$0.0467612 turns=3 tools={'Read': 1, 'Write': 1} wall=8s 5h=0.5 7d=0.7 
+json__T10_replace_all__r1: pass=True sub=None tok=3379 cc=2434 cr=649 out=294 cost=$0.0254898 turns=1 tools={} wall=5s 5h=0.5 7d=0.7 
+done 1792007611
+start 1792007713 jobs=1 P=1
+tool__N01_median__r1: pass=True sub=None tok=37855 cc=4765 cr=32725 out=359 cost=$0.051869 turns=3 tools={'Read': 1, 'Edit': 1} wall=8s 5h=0.51 7d=0.7 
+done 1792007721

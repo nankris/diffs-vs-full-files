@@ -1,0 +1,5 @@
+arm,n,ok,errors,output_tokens_mean,output_tokens_total,total_tokens_mean,est_cost_mean,turns_mean,wall_mean
+tool,10,10,none,475.7,4757,39064,0.0574,3,8.6
+full,10,10,none,146.2,1462,4125,0.0297,1,4.4
+udiff,10,10,none,211.4,2114,4218,0.0312,1,4.7
+json,10,10,none,154.5,1545,4180,0.0302,1,4.1
