@@ -1,0 +1,36 @@
+`node test.js` fails. Make it pass by fixing broken.js (never edit test.js). Files:
+
+`broken.js`:
+```
+function clamp(v, lo, hi) {
+  // recently added comment by another process
+  if (v < lo) return lo;
+  if (v > hi) return hi;
+  return v + 0; // bug introduced: should just return v
+}
+
+module.exports = { clamp };
+```
+
+`snapshot.js`:
+```
+function clamp(v, lo, hi) {
+  if (v < lo) return lo;
+  if (v > hi) return hi;
+  return v;
+}
+
+module.exports = { clamp };
+```
+
+`test.js`:
+```
+const assert = require("assert");
+const { clamp } = require("./broken");
+assert.strictEqual(clamp(5, 0, 10), 5);
+assert.strictEqual(clamp(-1, 0, 10), 0);
+assert.strictEqual(clamp(99, 0, 10), 10);
+console.log("OK");
+```
+
+Do not use any tools. Reply with only a unified diff (--- broken.js / +++ broken.js headers, @@ hunks) that fixes broken.js, in a single ```diff code block, and nothing else.

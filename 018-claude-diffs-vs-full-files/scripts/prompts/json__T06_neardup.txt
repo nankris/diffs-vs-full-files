@@ -1,0 +1,30 @@
+`node test.js` fails. Make it pass by fixing broken.js (never edit test.js). Files:
+
+`broken.js`:
+```
+function formatUser(id) {
+  return "user:" + id;
+}
+
+function formatItem(id) {
+  return "user:" + id; // bug: should be item:
+}
+
+function label(kind, id) {
+  return kind === "user" ? formatUser(id) : formatItem(id);
+}
+
+module.exports = { formatUser, formatItem, label };
+```
+
+`test.js`:
+```
+const assert = require("assert");
+const { formatUser, formatItem, label } = require("./broken");
+assert.strictEqual(formatUser(1), "user:1");
+assert.strictEqual(formatItem(2), "item:2");
+assert.strictEqual(label("item", 9), "item:9");
+console.log("OK");
+```
+
+Do not use any tools. Reply with only a JSON array of exact search/replace edits for broken.js, like [{"old": "exact existing text", "new": "replacement"}], in a single ```json code block, and nothing else. Each "old" must appear exactly once in the file.

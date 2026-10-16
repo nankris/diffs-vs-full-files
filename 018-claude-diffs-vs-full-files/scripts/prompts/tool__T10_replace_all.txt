@@ -1,0 +1,28 @@
+`node test.js` fails. Make it pass by fixing broken.js (never edit test.js). Files:
+
+`broken.js`:
+```
+const API = "http://legacy.example";
+
+function url(path) {
+  return "http://legacy.example" + path;
+}
+
+function health() {
+  return "http://legacy.example" + "/health";
+}
+
+module.exports = { API, url, health };
+```
+
+`test.js`:
+```
+const assert = require("assert");
+const { API, url, health } = require("./broken");
+assert.strictEqual(API, "http://api.example");
+assert.strictEqual(url("/v1"), "http://api.example/v1");
+assert.strictEqual(health(), "http://api.example/health");
+console.log("OK");
+```
+
+Fix the bug by editing broken.js in the current directory with your file-editing tools, then stop. Don't run anything else and don't edit test.js.
