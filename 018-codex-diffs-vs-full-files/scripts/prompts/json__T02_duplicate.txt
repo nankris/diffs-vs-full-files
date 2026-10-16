@@ -1,0 +1,33 @@
+`node test.js` fails. Make it pass by fixing broken.js (never edit test.js). Files:
+
+`broken.js`:
+```
+function processA(x) {
+  return x + 1; // identical buggy body
+}
+
+function processB(x) {
+  return x + 1; // identical buggy body
+}
+
+function run(kind, x) {
+  if (kind === "A") return processA(x);
+  return processB(x);
+}
+
+module.exports = { processA, processB, run };
+```
+
+`test.js`:
+```
+const assert = require("assert");
+const { processA, processB, run } = require("./broken");
+// Only processA must be fixed; processB stays intentionally broken (duplicate stress).
+assert.strictEqual(processA(3), 6);
+assert.strictEqual(run("A", 4), 8);
+// processB still wrong is OK for this task's functional check:
+assert.strictEqual(processB(3), 4); // still +1
+console.log("OK");
+```
+
+Do not use any tools. Reply with only a JSON array of exact search/replace edits for broken.js, like [{"old": "exact existing text", "new": "replacement"}], in a single ```json code block, and nothing else. Each "old" must appear exactly once in the file.

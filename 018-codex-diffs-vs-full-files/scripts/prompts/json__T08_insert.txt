@@ -1,0 +1,21 @@
+`node test.js` fails. Make it pass by fixing broken.js (never edit test.js). Files:
+
+`broken.js`:
+```
+function safeDiv(a, b) {
+  return a / b;
+}
+
+module.exports = { safeDiv };
+```
+
+`test.js`:
+```
+const assert = require("assert");
+const { safeDiv } = require("./broken");
+assert.strictEqual(safeDiv(10, 2), 5);
+assert.strictEqual(safeDiv(10, 0), null);
+console.log("OK");
+```
+
+Do not use any tools. Reply with only a JSON array of exact search/replace edits for broken.js, like [{"old": "exact existing text", "new": "replacement"}], in a single ```json code block, and nothing else. Each "old" must appear exactly once in the file.
